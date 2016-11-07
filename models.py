@@ -1,4 +1,7 @@
 from untitled5 import db
+
+
+
 class BlogPost(db.Model):
 
     __tablename__ = "posts"
@@ -13,3 +16,4 @@ class BlogPost(db.Model):
 
     def __repr__(self):
         return '<title {}'.format(self.title)
+
